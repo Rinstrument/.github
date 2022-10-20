@@ -22,8 +22,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![GPL2 License][license-shield]][license-url]
 
 
 
@@ -31,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/inirt/.github/blob/master/images/hex-inirt.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">inirt</h3>
