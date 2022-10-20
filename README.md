@@ -18,11 +18,8 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL2 License][license-shield]][license-url]
+[![Github Repository][contributors-shield]][https://github.com/inirt/inirt]
+[![GPL2 License][license-shield]][https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html]
 
 
 
@@ -38,7 +35,7 @@
   <p align="center">
     Item Response Theory Modeling tools for R.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/inirt/.github/blob/master/images/hex-inirt.png"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
