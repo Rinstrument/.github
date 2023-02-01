@@ -4,12 +4,13 @@
 
 ---
 
-<br />
-<div align="right">
+<!-- <p align="right">
   <a href="https://github.com/inirt/theta2">
     <img src="https://github.com/inirt/.github/blob/master/images/hex-inirt.png" alt="Logo" width="80" height="80">
   </a>
-</div>
+</p> -->
+
+<img align="right" src="https://github.com/inirt/.github/blob/master/images/hex-inirt.png">
 
 ## Overview
 
