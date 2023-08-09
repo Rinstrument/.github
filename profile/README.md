@@ -10,19 +10,21 @@
   </a>
 </p> -->
 
-<img align="right" src="https://github.com/inirt/.github/blob/master/images/hex-inirt.png" width="200px">
+<img align="right" src="https://github.com/Rinstrument/instrument/blob/master/www/hexsticker.png" width="200px">
+
+# R instrument quick guide
 
 ## Overview
 
-The R package `theta2` is an item response theory modeling software whose purpose is: 
+The R package `instrument` is an item response theory modeling software whose purpose is: 
 
- - Fit a variety of IRT models including the univariate, multivariate exploratory and confirmatory, and higher-order confirmatory models
+ - Fit a variety of IRT models including the univdimensional, multidimensional, and higher-order models
  - Specify regression models in the context of IRT with both fixed and random effects (i.e., mixed modeling)
  - Simple model syntax to describe IRT models with and without regression
 
 ## Documentation & Source
 
- - The `theta2` R package source code can be found at [github.com/inirt/theta2](https://github.com/inirt/theta2)
+ - The `instrument` R package source code can be found at [github.com/inirt/theta2](https://github.com/inirt/theta2)
 
  - Full documentation and tutorials can be found at [inirt.github.io/doc/](https://inirt.github.io/doc/)
 
@@ -32,19 +34,27 @@ The R package `theta2` is an item response theory modeling software whose purpos
 
 1. Since this is an R pacakge, the user first needs to install R from <a href="https://www.r-project.org/">the R project website</a>.
 
-2. Once R is installed, open an R console and install the package from Github using remotes:
+2. In addition to R, a good editor is recommended such as RStudio.
+
+3. The key dependency of this package is RStan. Use the development version of the software, which can be installed with:
+
+``` r
+install.packages("rstan", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
+```
+
+4. Once R and RStan are installed, open an R console and install the package from Github using remotes (recommended):
 
 ``` r
 # remotes
 install.packages("remotes")
 # install from Github
-remotes::install_github("inirt/theta2")
+remotes::install_github("Rinstrument/instrument")
 ```
 
-Alternatively, install from CRAN with:
+Alternatively, install from CRAN with (coming soon):
 
 ``` r
-install.packages("theta2")
+install.packages("instrument")
 ```
 
 ---
